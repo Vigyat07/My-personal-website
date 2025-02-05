@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:ital,wght@1,600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <div class="parentContainer">
+        <!-- Hero Section -->
+        <div class="initial">
+            <img src="./images/bg1.jpg" alt="Landscape" class="first-image" />
+            <div class="top-left">
+                Hi everyone<br />
+                <span>Vigyat</span> here!!
+            </div>
+        </div>
+
+        <!-- About Me Section -->
+        <div class="container">
+            <div>
+                <img src="./images/anime-removebg.png" height="800px" class="animated" />
+            </div>
+            <div class="container-grid">
+                <div class="about-me">
+                    <h1>About Me</h1>
+                    <hr class="horizontal" />
+                    <p>
+                        I am an <span id="ai">AI enthusiast</span> with hands-on experience in developing machine learning algorithms and data analysis. Led projects that analyzed large datasets to extract critical insights for real-world applications, while maintaining a strong academic record (9.0 CGPA). Passionate about solving complex problems through <span id="ai">AI-driven solutions</span>.
+                    </p>
+                </div>
+                <div class="plus plus1">
+                    <div class="plus-before"></div>
+                    <div class="plus-after"></div>
+                </div>
+                <div class="plustwo plus2">
+                    <div class="plus-beforetwo"></div>
+                    <div class="plus-aftertwo"></div>
+                </div>
+                <div class="skill">
+                    <h1>Skilled In</h1>
+                    <hr class="line-skill" />
+                    <div class="grid">
+                        <div class="first-grid"><img src="./images/html-5.png" height="80px" class="code" /></div>
+                        <div class="first-grid"><img src="./images/css-3.png" height="80px" class="code" /></div>
+                        <div class="first-grid"><img src="./images/java-script.png" height="80px" class="code" /></div>
+                        <div class="first-grid"><img src="./images/python.png" height="80px" class="code" /></div>
+                        <div class="first-grid"><img src="./images/c.png" height="80px" class="code" /></div>
+                        <div class="first-grid"><img src="./images/vs_code-removebg-preview.png" height="80px" class="code" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Portfolio Section -->
+        <div class="portfolio">
+            <div class="heading-portfolio">
+                <h3>
+                    <div id="my">My</div>
+                    <div id="next"><span id="port">Portfolios</span></div>
+                </h3>
+                <hr class="hr" />
+            </div>
+            <div class="tindog-project">
+                <div class="flex-container">
+                    <div class="photo-tindog">
+                        <img src="./images/finance-app.png" height="500px" width="500px" />
+                    </div>
+                    <div class="about-tindog">
+                        <h3 id="tindog">Personal Finance Application</h3>
+                        <hr class="tin" />
+                        <p class="para">
+                            Created an AI-powered budget-tracking tool with expense categorization, leveraging machine learning models for forecasting future expenses. This solution saved users 5+ hours per month on financial planning by providing intelligent insights and predictions.
+                        </p>
+                        <a href="https://github.com/Vigyat07/Personal-Finance-App" target="_blank">
+                            <button>Know more</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="move-it">
+                <div class="flex-container">
+                    <div class="about-move">
+                        <h3 id="move">Face Recognition Attendance System</h3>
+                        <hr class="tint" />
+                        <p class="paragraph">
+                            Developed a Face Recognition Attendance System using OpenCV and Python, optimizing manual attendance time by 90% for users. Engineered a robust application integrated with a SQL database, which provided instant updates on attendance status while maintaining 98% recognition accuracy in challenging low-light environments.
+                        </p>
+                        <a href="https://github.com/Vigyat07/-Attendance-Management-System-using-Face-Recognition" target="_blank">
+                            <button>Know more</button>
+                        </a>
+                    </div>
+                    <div class="photo-tindog">
+                        <img src="./images/attendance-system.png" height="500px" width="500px" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connect Section -->
+        <div class="connect">
+            <div class="flexc-container">
+                <div class="left-connect">
+                    <h4>Connect with me.</h4>
+                    <p class="para-con">
+                        I am always open to discuss projects, learn about best practices, or help with your challenges.
+                    </p>
+                </div>
+                <div class="box-connect">
+                    <div class="outer-box">
+                        <p class="hi">Or use the form below</p>
+                        <input type="text" class="name v" placeholder="Name..." />
+                        <input type="email" class="email v" placeholder="Email..." />
+                        <textarea class="comment v" placeholder="Comment..."></textarea>
+                        <button class="button-con" onclick="submitForm()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <div class="c">
+                <h3 id="foot">© 2023 Vigyat, Inc</h3>
+            </div>
+            <div class="icons">
+                <div class="ul">
+                    <ul>
+                        <li><a href="https://www.instagram.com/vigyat_bhat/"><img src="./images/instagram.svg" /></a></li>
+                        <li><a href="https://github.com/Vigyat07?tab=repositories"><img src="./images/github.svg" /></a></li>
+                        <li><a href="https://www.linkedin.com/in/vigyat-bhat-19096b25b/"><img src="./images/linkedin.svg" /></a></li>
+                        <li><a href="mailto:vigyatbhat07@gmail.com"><img src="./images/envelope-at-fill.svg" /></a></li>
+                        <li><a href=""><img src="./images/twitter-x.svg" /></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function showMore(project) {
+            alert(`You clicked on ${project}. More details coming soon!`);
+        }
+
+        function submitForm() {
+            const name = document.querySelector('.name').value;
+            const email = document.querySelector('.email').value;
+            const comment = document.querySelector('.comment').value;
+
+            if (name && email && comment) {
+                alert(`Thank you, ${name}! Your message has been submitted.`);
+            } else {
+                alert('Please fill out all fields.');
+            }
+        }
+    </script>
+</body>
+</html>
